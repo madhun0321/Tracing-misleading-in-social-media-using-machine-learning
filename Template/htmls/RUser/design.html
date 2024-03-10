@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Remote User</title>
+<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+<style>
+    
+    h1{
+    color:white;
+    }
+.topnav {
+  overflow: hidden;
+  background-color: #ADA19F;
+}
+
+.topnav a {
+  float: left;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #D0D0D0;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #8e4fd1;
+  color: white;
+}
+.style1 {color: #000000}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+<body>
+
+<h1 align="center" class="style1">TRACING MISLEADING DATA IN SOCIAL MEDIA USING MACHINE LEARNING</h1>
+
+<div  class="topnav">
+
+     <a  href="{% url 'Search_DataSets' %}">PREDICT SOCIAL MEDIA DATA TYPE</a>
+     <a href="{% url 'ViewYourProfile' %}">VIEW YOUR PROFILE</a>
+     <a href="{% url 'login' %}">LOGOUT</a>
+</div>
+
+<div class="mainholder">
+{% block userblock %}
+{% endblock %}
+</div>
+</body>
+</html>

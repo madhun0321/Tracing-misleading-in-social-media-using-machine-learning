@@ -1,0 +1,26 @@
+Service Provider
+
+Login,
+Browse and Train & Test Data Sets, 
+View Trained and Tested Accuracy in Bar Chart, 
+View Trained and Tested Accuracy Results, 
+View Predicted Social Media News Type Details, 
+Find Social Media News Type Ratio,
+Download Predicted Data Sets, 
+View Social Media News Type Ratio Results, 
+View All Remote Users.
+
+Remote User
+
+
+REGISTER AND LOGIN,
+PREDICT SOCIAL MEDIA NEWS TYPE, 
+VIEW YOUR PROFILE.
+
+
+Members
+
+News_Data
+Prediction_LR
+Prediction_DT
+Prediction_RFC
